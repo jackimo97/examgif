@@ -1,0 +1,64 @@
+Nombre: German Gradilla Santana
+	Grupo: matutino I
+	Fecha: 8 de Nov del 2019
+	
+	GIT
+	
+	Cual es la diferencia entre git y GitHUB?
+	    R. GIT es el software que esta checando los cambios en lo que hacemos controlando las versiones y se usa en nuestro equipo.
+               Mientras que GitHUB es la plataforma que hospeda los proyectos en la nube. Ademas de ser Una comunidad llena de personas
+	       que desarrollan y comparten, usando GIT.
+
+	En cuantos y cuales estados puede estar un archivo?
+	   R. Tres estados principales: confirmado (committed), modificado (modified), y preparado (staged)
+
+	Para que sirve el comando "git add ." ?
+	   R.  añade al índice (area de staging) cualquier archivo nuevo o que haya sido modificado
+
+	Cuales son los 4 datos mas relevantes a la hora de hacer un commit?
+	   R. Saber que archivos estan bajo seguimiento o no (tracked, untracked), modificados o no y preparados (staged)
+
+	Cual es el comando para crear una rama en mi repositorio?
+	   R. git branch que puede sr seguido de git checkout o se puede usar git checkout -b "ramanueva"
+
+	JIRA
+	
+	Defina lo que es un issue:
+	   R. Es un elemento (como una tarea) al que quieres rastrear su estatus y tiene algunas propiedades como: 
+	      Descripcion, a quien se asigno y su tiempo estimado de ejecucion.
+
+	En kanban y scrum, cuales son las columnas default de un tablero?
+	   R. To Do, In Progress, Code review, Done
+
+	Como se selecciona un Dashboard para mostrarse en la pantalla de bienvenida?
+	   R.   Desde tu project en Jira das click Dashboards y View all Dashboards.
+		En el top right das click en Create dashboard.
+		se pone el nombre.
+		Iniciar desde un blank dashboard.
+		Para compartir selecciona Public y click en Add.
+		Click Create.
+	
+	Jenkins
+	
+	Cual es el atajo (ruta relativa) para el directorio home de un usuario de ubuntu?
+	  R. CD ~
+
+	Como se installa Jenkins en un sistema linux?
+	  R. INSTALAR JENKINS
+	      wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+	      lo tomamos de la pagina en la opcion de ubuntu y lo ejecutamos
+              sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+              ESto ultimo es para agregar la direccion a la lista de repositorios
+	      apt-get update
+	      para actualizar paquetes
+	      sudo apt-get install jenkins
+	      ya para instalar Jenkins
+
+	Cual es la relacion entre Hudson y Jenkins? 
+	  R. 	Cruise control se encarga de hacer tareas automaticas a la hora que le digamos (salio en 2001)
+		y en 2004 se desarrollo Hudson Inception en 2004 con Sun se hizo popular en 2007 y ya en 2009 
+	        que lo compro oracle a sun cambio ya a Tension a finales del 2010 y la comunidad se separa porque
+                oracle ponia trabas lo que en 2011 la comunidad genera Jenkins aprovechando ese mismo codigo libre.
+		solo el nombre del otro se quedo con oracle CloudBees soporta a Jenkins este es gratis pero para acceder
+                a sus servidores si hay que pagar. y pone de CEO al que inicio este programa o sea Hudson.
+		En abril del 2016 salio la jenkins 2 Realeased.
